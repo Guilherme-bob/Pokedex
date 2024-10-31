@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="ScreenOrientation">
+
+    <link rel="icon" href="../src/images/icone pokebola alternativa.ico" content="autoRote:disabled">
+
+    <script src="../src/JS/pokedex.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="../src/CSS/pokedex.css">
+    <title>pokedex</title>
+</head>
+<body>
+    <main>
+
+        <img src="../src/images/charmander.2.gif" alt="pokemon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"></span> -
+            <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="text" class="input__search" placeholder="name or number" required>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">&lt; prev</button>
+
+            <button class="button btn-next">next &gt;</button>
+        </div>
+    </main>
+</body>
+</html>
